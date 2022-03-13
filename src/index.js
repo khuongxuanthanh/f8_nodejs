@@ -12,13 +12,13 @@ app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'resources/views'));
 app.set('layout', 'layouts/main');
 
-app.get('/', (req, res) => { 
+app.get('/',function (req, res) { 
   res.render('home');
 });
-app.get('/News', (req, res) => { 
+app.get('/News',function (req, res) { 
   res.render('news');
 });
 
-app.listen(port, () => {
+app.listen(port,function (err) {
   console.log(`Example app listening on port http://locahost:${port}`)
 });
