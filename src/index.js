@@ -20,5 +20,5 @@ app.get('/News',function (req, res) {
 });
 
 app.listen(port,function (err) {
-  console.log(`Example app listening on port http://locahost:${port}`)
+  console.log('Example app listening on port http://locahost:${port}')
 });
