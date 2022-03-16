@@ -8,11 +8,11 @@ const app = express();
 const route = require('./routes');
 
 // app.use(morgan('combined'));
-            app.use(
-                express.urlencoded({
-                    extended: true,
-                }),
-            );
+        app.use(
+            express.urlencoded({
+                extended: true,
+            }),
+        );
 app.use(express.json());
 
                     app.use(expressLayouts);
