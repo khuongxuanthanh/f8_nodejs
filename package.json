@@ -2,53 +2,30 @@
   "name": "f8_nodejs",
   "version": "1.0.0",
   "description": "",
-  "main": "src/index.js",
+  "main": "index.js",
   "scripts": {
-      "beautiful": "lint-staged",
-    "start": "nodemon --inspect src/index.js",
-    "watch": "node-sass --watch src/resources/scss/ --output src/public/css/",
+    "start": "nodemon --inspect index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-
   "repository": {
     "type": "git",
     "url": "git+https://github.com/khuongxuanthanh/f8_nodejs.git"
   },
-
   "keywords": [
-    "nodejs",
     "f8",
     "nodejs",
     "eproject"
   ],
-
-  "author": "KXT",
+  "author": "XuanThanh",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/khuongxuanthanh/f8_nodejs/issues"
   },
   "homepage": "https://github.com/khuongxuanthanh/f8_nodejs#readme",
-  "lint-staged": {
-    "src/**/*.{js,json,scss}": "prettier --single-quote --trailing-comma all --tab-width 4 --write"
-  },
-  "husky": {
-    "hooks": {
-        "pre-commit": "lint-staged"
-    }
-  },
-  
   "dependencies": {
-    "ejs": "^3.1.6",
     "express": "^4.17.3"
   },
-
   "devDependencies": {
-    "express-ejs-layouts": "^2.5.1",
-    "husky": "^7.0.4",
-    "lint-staged": "^12.3.5",
-    "morgan": "^1.10.0",
-    "node-sass": "^7.0.1",
-    "nodemon": "^2.0.15",
-    "prettier": "^2.5.1"
+    "nodemon": "^2.0.15"
   }
 }
