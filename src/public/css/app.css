@@ -39,6 +39,12 @@ html {
   padding-right: 8px;
   width: 50%; }
 
+.user-avatar {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  margin-right: 4px; }
+
 /* CSS Header */
 .header {
   height: 199px;
@@ -498,3 +504,7 @@ video {
 
 #footertext a:hover {
   color: violet; }
+
+.checkbox-select-all-options {
+  width: 160px;
+  margin: 0 12px; }

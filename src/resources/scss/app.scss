@@ -48,6 +48,15 @@ html {
     width: 50%;
 }
 
+// Accout CSS
+
+.user-avatar {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    margin-right: 4px;
+}
+
 /* CSS Header */
 
 .header {
@@ -596,4 +605,11 @@ video {
 }
 #footertext a:hover {
     color: violet;
+}
+
+// CSS stores solarsystem
+
+.checkbox-select-all-options {
+    width: 160px;
+    margin: 0 12px;
 }
