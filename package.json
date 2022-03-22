@@ -9,21 +9,6 @@
     "watch": "node-sass --watch src/resources/scss/ --output src/public/css/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/khuongxuanthanh/eProject_One.git"
-  },
-  "keywords": [
-    "f8",
-    "nodejs",
-    "eproject"
-  ],
-  "author": "XuanThanh",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/khuongxuanthanh/eProject_One/issues"
-  },
-  "homepage": "https://github.com/khuongxuanthanh/eProject_One#readme",
   "dependencies": {
     "express": "^4.17.3",
     "express-handlebars": "^6.0.3",
